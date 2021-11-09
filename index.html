@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Fighters</title>
+
+    <a-scene background="color:#000000">
+
+      <a-camera position="0 0 5">
+  
+      </a-camera>
+  
+
+      <!--Asset Management-->
+      <a-assets>        
+
+
+        <a-asset-item id="terrain-obj" src="C:/Users/Vishanth/OneDrive/Desktop/HTML3D/FlightSimulation/MyOwnSimulationGame/models/terrain/tinker.obj"></a-asset-item> 
+        <a-asset-item id="terrain-mtl" src="C:/Users/Vishanth/OneDrive/Desktop/HTML3D/FlightSimulation/MyOwnSimulationGame/models/terrain/obj.mtl"></a-asset-item>
+        <a-asset-item id="superman-obj" src="./Superman/tinker.obj"></a-asset-item> 
+        <a-asset-item id="superman-mtl" src="./Superman/obj.mtl"></a-asset-item>
+
+        
+      </a-assets>
+
+      <a-entity obj-model="obj: #terrain-obj; mtl: #obj-mtl" position="0 0 0"  scale="1 1 1" animation="property: position; to: 0 0 1000;easing:linear; loop: true; dur: 150000"></a-entity>
+
+
+
+
+      <a-entity obj-model="obj: #superman-obj; mtl: #superman-mtl" position="1 1 1" rotation="-90 -90 0" scale="0.09 0.09 0.09"></a-entity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </a-scene>
+    </head>
+    <body>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
